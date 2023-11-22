@@ -1,0 +1,13 @@
+﻿@model Skills
+
+@{
+}
+
+<h1>This is the specific skill @Model.Id</h1>
+
+<p></p>
+
+
+<form action="/Skills/DeleteSkill/@Model.Id" method="post">
+    <button>Delete skill</button>
+</form>

@@ -1,0 +1,70 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+#about-box {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    color: black !important;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.title-box {
+    box-sizing: border-box;
+    color: blue;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: darkcyan;
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+
+}
+
+.navbar-brand {
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    width: 120px;
+    text-align:center;
+}
+
+.nav-item {
+    background-color: red;
+    border-radius: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 90px;
+    text-align: center;
+    margin: 1px;
+}

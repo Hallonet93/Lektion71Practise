@@ -1,0 +1,11 @@
+﻿@model List<Contact>
+
+@{
+}
+
+<h1>Current contacting Requests</h1>
+
+@foreach(Contact contact in Model)
+{
+    <p>@contact.firstname @contact.lastname @contact.emaila @contact.country <a href="/Contact/ShowContact/@contact.Id">Show Details</a></p>
+}

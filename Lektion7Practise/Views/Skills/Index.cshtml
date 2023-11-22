@@ -1,0 +1,15 @@
+﻿@model List<Skills>
+
+@{
+}
+    <h1>Hallonbåt's skills</h1>
+    <p>See below a list of Hallonbåt's different skillsets!</p>
+
+    <ul>
+        @foreach (Skills skill in Model)
+        {
+        <li>@skill.Name <a href="/Skills/ShowSkills/@skill.Id">Show order</a></li>
+        }
+    </ul>
+
+    <a href="/Skills/CreateSkill">Create skill</a>
